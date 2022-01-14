@@ -1,0 +1,6 @@
+<h1>Books</h1>
+<h2>New Book</h2>
+
+<%= form_with model: Book.new, local: true do |f| %>
+  <%= f.text_field :title %>
+<% end %>
